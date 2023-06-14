@@ -11,7 +11,7 @@
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
 <df-messenger
   df-cx="true"
-  chat-title="Asistente de Klientu"
+  chat-title="Smart Klientu Bot"
   agent-id="b11122c2-f581-4574-bed3-908bf25d94fe"
   language-code="es"
 ></df-messenger>
@@ -23,10 +23,37 @@
   
   <div class="col-lg-12 col-md-12 col-sm-12">
     <div id="container">
+      <div id="boxTitle">Descripción</div>
+      <div id="boxContent">
+        Asistente que registra problemas de los usuarios 
+        con servicios de telecomunicaciones. Toma datos del
+        usuario y resume los detalles de la conversación en 
+        un JSON para alimentar base de datos. Redirige a un
+        Kisser. Chatbot empático con emojis.
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12 col-md-12 col-sm-12">
+    <div id="container">
+      <div id="boxTitle">Integraciones</div>
+      <div id="boxContent">
+        <ul>
+          <li>Página web</li>
+          <li>Whatsapp</li>
+          <li>Facebook</li>
+          <li>Instagram</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12 col-md-12 col-sm-12">
+    <div id="container">
       <div id="boxTitle">Ideas</div>
       <div id="boxContent">
         <ul>
-          <li>Base de datos</li>
+          <li>Base de datos robusta</li>
           <li>Despliegue local</li>
           <li>Usar GitHub pages para demos</li>
           <li>Integrar con SharePoint</li>
@@ -34,6 +61,8 @@
       </div>
     </div>
   </div>
+  
+  
 </div>
 </body>
 

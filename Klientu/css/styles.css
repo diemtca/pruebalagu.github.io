@@ -25,13 +25,13 @@ h1 {
 
 #boxTitle {
   border: 3px solid black;
-  background-color: navy;
-  width: 100px;
+  background-color: #0c3799;
+  width: auto;
   height: auto;
   position: relative;
-  float: right;
+  float: left;
   top: -5px;
-  right: -5px;   
+  right: 5px;   
   font-weight: bold;
   text-align: center;
   color: white;
@@ -40,7 +40,7 @@ h1 {
 
 
 #boxContent {
-  clear: right;
+  clear: left;
   width: 90%;
   height: auto;
   margin-right: auto;

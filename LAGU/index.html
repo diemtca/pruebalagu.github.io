@@ -16,13 +16,14 @@
     agent-id="3edc71ec-82ee-436f-9bcb-a07d921294e4"
     language-code="es"
  ></df-messenger>
-    <script>
-        // Espera a que la página se haya cargado completamente
-        document.addEventListener('DOMContentLoaded', function () {
-            // Enviar el evento "WELCOME" al widget de Chat de Dialogflow
-            window.dfMessenger.renderCustomText('¡Hola!');
-        });
-    </script>
+   <script>
+       // Espera a que la página se haya cargado completamente
+       document.addEventListener('DOMContentLoaded', function () {
+           // Enviar el evento "WELCOME" al widget de Chat de Dialogflow
+           const chatbot = document.querySelector('df-messenger');
+           chatbot.renderCustomText('¡Hola! Soy un chatbot y estoy aquí para ayudarte.');
+       });
+   </script>
 <h1>Chatbot de Laguna-ai</h1>
 
 <div class="row">
